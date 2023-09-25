@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.10.0)
 project(airsim_moveit_navigation)
 
-set(AIRSIM_ROOT /home/user/Code/AirSim)
+set(AIRSIM_ROOT /home/airsim/AirSim)
 add_subdirectory("${AIRSIM_ROOT}/cmake/AirLib" AirLib)
 add_subdirectory("${AIRSIM_ROOT}/cmake/MavLinkCom" MavLinkCom)
 

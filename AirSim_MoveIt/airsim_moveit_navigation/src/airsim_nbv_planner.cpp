@@ -11,10 +11,10 @@
 #include <geometry_msgs/TransformStamped.h>
 //#include <tf/tf.h>
 #include <tf2_ros/transform_listener.h>
-
+#include "tf2_geometry_msgs/tf2_geometry_msgs.h"
 #include "vehicles/multirotor/api/MultirotorRpcLibClient.hpp"
 
-string nbv_file = "/home/user/nbv_position.txt";
+std::string nbv_file = "/home/airsim/AirSim/GATSBI/nbv_position.txt";
 msr::airlib::MultirotorRpcLibClient client;
 
 geometry_msgs::Pose transformPose(geometry_msgs::Pose in, std::string target_frame, std::string source_frame)

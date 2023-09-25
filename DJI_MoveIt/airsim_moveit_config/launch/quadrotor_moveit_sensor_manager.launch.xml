@@ -1,3 +1,0 @@
-<launch>
-	<rosparam command="load" file="$(find airsim_moveit_config)/config/sensors_airsim.yaml" />
-</launch>
